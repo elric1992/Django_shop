@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-08 17:31+1000\n"
+"POT-Creation-Date: 2020-09-15 15:33+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,26 +40,6 @@ msgstr ""
 
 #: orders/models.py:16
 msgid "city"
-msgstr ""
-
-#: orders/models.py:17
-msgid "created"
-msgstr ""
-
-#: orders/models.py:18
-msgid "updated"
-msgstr ""
-
-#: orders/models.py:19
-msgid "paid"
-msgstr ""
-
-#: orders/models.py:20
-msgid "braintree id"
-msgstr ""
-
-#: orders/models.py:22
-msgid "coupon"
 msgstr ""
 
 #: orders/templates/orders/order/create.html:5

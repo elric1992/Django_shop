@@ -14,12 +14,11 @@ class Order(models.Model):
     address = models.CharField(_('address'), max_length=250)
     postal_code = models.CharField(_('postal code'), max_length=20)
     city = models.CharField(_('city'), max_length=100)
-    created = models.DateTimeField(_('created'), auto_now_add=True)
-    updated = models.DateTimeField(_('updated'), auto_now=True)
-    paid = models.BooleanField(_('paid'), default=False)
-    braintree_id = models.CharField(_('braintree id'), max_length=150, blank=True)
+    created = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now=True)
+    paid = models.BooleanField(default=False)
+    braintree_id = models.CharField(max_length=150, blank=True)
     coupon = models.ForeignKey(
-        _('coupon'),
         Coupon,
         related_name='orders',
         null=True,
